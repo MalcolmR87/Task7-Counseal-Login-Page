@@ -1,0 +1,30 @@
+#left {
+    float: left;
+    background-color:#DFE1E5; 
+    width: 50%; 
+    height: 940px;
+}
+
+#left-logo{margin: auto; margin-top: 35%; margin-bottom: -25px; display: flex; justify-content: center; font-size: xx-large;} 
+#logo{width: 11%; height: 11%; margin-top: 13px;}
+
+#email-box{display: flex; justify-content: center;}
+#email{width: 45%; height: 33px; border: 2px solid #DCE7EF; border-top-left-radius: 9px; border-top-right-radius: 9px; padding-left: 15px; margin-bottom: 14px;}
+#password-box{display: flex; justify-content: center;}
+#password{width: 45%; height: 33px; border: 2px solid #DCE7EF; border-bottom-left-radius: 9px; padding-left: 15px;}
+
+#form-box{display: flex; justify-content: center; margin-top: 25px;}
+/*input[#check] + label{display: inline-block; border: 2px solid #DCE7EF; background-color:#DFE1E5;}
+input[#check]:checked + label::after{color: #52808C; background-color: #00B1E0;}*/
+#form-box a{text-decoration: none; color: #8C8C8D; font-size: small; font-weight: 500;}
+#form-box label{color: #8C8C8D; font-size: medium; font-weight: 500; margin-right: 2%;}
+#login-submit{margin-left: 11.5%; font-weight: 600; color: #52808C; background-color: #00B1E0; width: 8%; height: 34px; border: none; border-bottom-right-radius: 9px; margin-top: -10px;}
+
+#right {
+    float: right; 
+    background-image: url(./counseal-bg.png); 
+    background-repeat: no-repeat;
+    width: 50%; 
+    height: 940px;
+    
+}
