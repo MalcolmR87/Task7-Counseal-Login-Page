@@ -27,4 +27,4 @@ input[#check]:checked + label::after{color: #52808C; background-color: #00B1E0;}
     width: 50%; 
     height: 940px;
     
-}
+}/**/
